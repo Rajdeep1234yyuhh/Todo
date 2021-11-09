@@ -15,7 +15,7 @@ export const AppLayout = (props) => {
         <div className="input-group mb-3">
           <input
             type="text"
-            class="form-control"
+            className="form-control"
             value={inputData}
             onChange={(event) => setInputData(event.target.value)}
             placeholder="Add a Todo Here and click on the plus button on RHS to add"
@@ -60,11 +60,11 @@ export const AppLayout = (props) => {
         <br />
         <br />
 
-        <div class="d-grid gap-2 d-md-block">
+        <div className="d-grid gap-2 d-md-block">
           <button 
           
             onClick={() => dispatch(removeAll())}
-            class="btn btn-primary"
+            className="btn btn-primary"
             type="button"
           >
             Remove All
